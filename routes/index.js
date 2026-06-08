@@ -102,8 +102,8 @@ const portfolioData = {
   ],
 
   social: {
-    github: "https://github.com",
-    linkedin: "https://linkedin.com/in",
+    github: "https://github.com/Mahboobraza01",
+    linkedin: "https://www.linkedin.com/in/mahboobraza/",
     twitter: "https://twitter.com",
     youtube: "https://youtube.com",
     instagram: "https://instagram.com"
