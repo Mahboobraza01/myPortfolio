@@ -31,7 +31,7 @@ const portfolioData = {
   projects: [
     {
       title: "Wanderlust – Booking Web App",
-      desc: "Full-stack accommodation booking platform with user authentication, CRUD listings, image uploads, reviews, aur AI-based price suggestions for better booking experience.",
+      desc: "Full-stack accommodation booking platform with user authentication, CRUD listings, image uploads, reviews, and payment integration for better booking experience.",
       tech: ["Node.js", "Express.js", "EJS", "MongoDB"],
       github: "https://github.com/Mahboobraza01/wanderlust",
       live: "https://wanderlust-2i83.onrender.com/listings",
@@ -39,7 +39,7 @@ const portfolioData = {
     },
     {
       title: "PG Life – PG Accommodation Website",
-      desc: "Responsive PG accommodation website with city-wise search & filtering. Frontend React se, backend PHP + MySQL se banaya aur REST APIs integrate kiye.",
+      desc: "A Responsive PG accommodation website with city-wise search and filtering. The frontend is built using React, and the backend is developed with PHP + MySQL, connected via REST APIs.",
       tech: ["React", "PHP", "MySQL", "Bootstrap"],
       github: "https://github.com/Mahboobraza01/PG-life",
       live: "https://mahboob-portfolio.infinityfreeapp.com/pglife/index.php",
@@ -47,7 +47,7 @@ const portfolioData = {
     },
     {
       title: "Real-time Weather Telegram Bot",
-      desc: "Node.js se banaya real-time weather bot jo Telegram API aur OpenWeatherMap API integrate karta hai. Kisi bhi city ka live weather milta hai instantly.",
+      desc: "A real-time weather bot built with Node.js that integrates the Telegram API and OpenWeatherMap API. It provides the live weather of any city instantly.",
       tech: ["Node.js", "Telegram API", "OpenWeatherMap API"],
       github: "https://github.com/Mahboobraza01/weathet-bot",
       live: "https://web.telegram.org/k/#@WeatherBabaBot",
@@ -55,10 +55,10 @@ const portfolioData = {
     },
     {
       title: "Portfolio Website",
-      desc: "Yeh hi portfolio website jo Node.js, Express.js aur EJS se banai gayi hhttps://github.comai — dark theme aur fully responsive.",
+      desc: "A portfolio website built using Node.js, Express.js, and EJS featuring a dark theme and a fully responsive design.",
       tech: ["Node.js", "Express.js", "EJS", "CSS"],
-      github: "https://github.com",
-      live: "#",
+      github: "https://github.com/Mahboobraza01/myPortfolio",
+      live: "https://my-portfolio-tltd.onrender.com/",
       emoji: "🎨"
     }
   ],
