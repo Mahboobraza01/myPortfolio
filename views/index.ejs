@@ -1,0 +1,139 @@
+<%- include('partials/header') %>
+
+<!-- ─── HERO SECTION ─────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero-bg">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+  </div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for Work
+      </div>
+      <h1 class="hero-title">
+        Hi, I'm <span class="highlight"><%= data.name %></span>
+      </h1>
+      <p class="hero-subtitle"><%= data.title %></p>
+      <p class="hero-tagline"><%= data.tagline %></p>
+      <div class="hero-cta">
+        <a href="/projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+        <a href="/contact" class="btn btn-outline">Hire Me 🤝</a>
+      </div>
+      <div class="hero-tech">
+        <span>Tech Stack:</span>
+        <div class="tech-pills">
+          <span>React</span>
+          <span>Node.js</span>
+          <span>MySQL</span>
+          <span>Javascript</span>
+          <span>DSA (Java)</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-card">
+        <div class="code-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="code-filename">developer.js</span>
+        </div>
+        <pre class="code-body"><code><span class="c-keyword">const</span> <span class="c-var">developer</span> = {
+  <span class="c-key">name</span>: <span class="c-str">"Mahboob Raza"</span>,
+  <span class="c-key">role</span>: <span class="c-str">"Full Stack Developer"</span>,
+  <span class="c-key">cgpa</span>: <span class="c-str">8.2</span>,
+  <span class="c-key">skills</span>: [
+    <span class="c-str">"React"</span>, <span class="c-str">"Node.js"</span>,
+    <span class="c-str">"MongoDB"</span>, <span class="c-str">"PHP"</span>
+  ],
+  <span class="c-key">dsa</span>: <span class="c-str">"300+ problems"</span>,
+  <span class="c-key">available</span>: <span class="c-bool">true</span> <span class="c-comment">// hire me!</span>
+};</code></pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── STATS SECTION ────────────────────────────────────────────── -->
+<section class="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <% data.stats.forEach(stat => { %>
+      <div class="stat-card">
+        <h3 class="stat-number"><%= stat.number %></h3>
+        <p class="stat-label"><%= stat.label %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<!-- ─── SKILLS SECTION ───────────────────────────────────────────── -->
+<section class="skills-section section">
+  <div class="container">
+    <div class="section-header">
+      <!-- <span class="section-tag">Skills</span> -->
+      <h2>My <span class="highlight">Tech Stack</span></h2>
+      <!-- <p>Technologies jinse main kaam karta hoon</p> -->
+    </div>
+    <div class="skills-grid">
+      <% data.skills.forEach(skill => { %>
+      <div class="skill-card">
+        <div class="skill-top">
+          <span class="skill-icon"><%= skill.icon %></span>
+          <span class="skill-name"><%= skill.name %></span>
+          <span class="skill-percent"><%= skill.level %>%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-fill" data-width="<%= skill.level %>"></div>
+        </div>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FEATURED PROJECTS ────────────────────────────────────────── -->
+<section class="projects-preview section">
+  <div class="container">
+    <div class="section-header">
+      <!-- <span class="section-tag">// projects</span> -->
+      <h2>Featured <span class="highlight">Projects</span></h2>
+      <!-- <p>Some Projects i have made</p> -->
+    </div>
+    <div class="projects-grid">
+      <% data.projects.slice(0,3).forEach(project => { %>
+      <div class="project-card">
+        <div class="project-emoji"><%= project.emoji %></div>
+        <h3><%= project.title %></h3>
+        <p><%= project.desc %></p>
+        <div class="project-tech">
+          <% project.tech.forEach(t => { %><span><%= t %></span><% }) %>
+        </div>
+        <div class="project-links">
+          <a href="<%= project.github %>" target="_blank"><i class="fab fa-github"></i> Code</a>
+          <a href="<%= project.live %>" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+        </div>
+      </div>
+      <% }) %>
+    </div>
+    <div class="center-btn">
+      <a href="/projects" class="btn btn-outline">All Projects dekhein →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── CTA SECTION ──────────────────────────────────────────────── -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-card">
+      <h2>Shall we work together? 🤝</h2>
+      <p>If you need a passionate developer who can turn your ideas into reality, then I am available!</p>
+      <a href="/contact" class="btn btn-primary">Let's talk! <i class="fas fa-rocket"></i></a>
+    </div>
+  </div>
+</section>
+
+<%- include('partials/footer') %>

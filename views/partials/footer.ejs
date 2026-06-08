@@ -1,0 +1,27 @@
+<!-- ─── FOOTER ──────────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="logo-bracket">{</span>
+        <span class="logo-name"><%= data ? data.name.split(' ')[0] : 'Dev' %></span>
+        <span class="logo-bracket">}</span>
+        <p>Building the future, one commit at a time. 🚀</p>
+      </div>
+      <div class="footer-social">
+        <a href="<%= data.social.github %>" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="<%= data.social.linkedin %>" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="<%= data.social.twitter %>" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="<%= data.social.youtube %>" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="<%= data.social.instagram %>" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Made by <strong><%= data ? data.name : 'Developer' %></strong> | © <%= new Date().getFullYear() %></p>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
+</body>
+</html>

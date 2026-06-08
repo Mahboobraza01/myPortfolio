@@ -1,0 +1,32 @@
+<%- include('partials/header') %>
+
+<section class="page-hero">
+  <div class="container">
+    <!-- <span class="section-tag">// my work</span> -->
+    <h1>My <span class="highlight">Projects</span></h1>
+    <!-- <p>Kuch cheezein jo maine banai hain ❤️</p> -->
+  </div>
+</section>
+
+<section class="all-projects section">
+  <div class="container">
+    <div class="projects-grid">
+      <% data.projects.forEach(project => { %>
+      <div class="project-card">
+        <div class="project-emoji"><%= project.emoji %></div>
+        <h3><%= project.title %></h3>
+        <p><%= project.desc %></p>
+        <div class="project-tech">
+          <% project.tech.forEach(t => { %><span><%= t %></span><% }) %>
+        </div>
+        <div class="project-links">
+          <a href="<%= project.github %>" target="_blank"><i class="fab fa-github"></i> Source Code</a>
+          <a href="<%= project.live %>" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+        </div>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,43 @@
+<%- include('partials/header') %>
+
+<section class="page-hero"> 
+   <div class="container"> 
+    <h1>About <span class="highlight">Me</span></h1>
+   </div> 
+</section>
+
+<section class="about-section section">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-image-wrap">
+        <!-- Agar photo hai toh uncomment karein: -->
+        <img src="/images/profile.jpeg" alt="<%= data.name %>" class="about-img"> 
+      </div>
+      <div class="about-text">
+        <h2>I'm <span class="highlight"><%= data.name %></span></h2>
+        <h3 class="about-role"><%= data.title %></h3>
+        <p class="about-desc"><%= data.about %></p>
+        <div class="about-info">
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span><%= data.location %></span>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <span><%= data.email %></span>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <span><%= data.phone %></span>
+          </div>
+        </div>
+        <div class="about-cta">
+          <a href="/contact" class="btn btn-primary">Hire Me 🚀</a>
+          <a href="https://drive.google.com/file/d/1o-dSz4hkn2YVXYNXMblfRg4qi5X8dMKE/view" class="btn btn-outline" download><i class="fas fa-download"></i> Resume</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%- include('partials/footer') %>
