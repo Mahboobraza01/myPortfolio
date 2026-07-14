@@ -9,9 +9,9 @@ const portfolioData = {
   about: "I am a passionate Full Stack Developer (B.Tech CSE, May 2026) with hands-on experience in building responsive web applications using modern technologies.I specialize in creating responsive web applications and have practical experience with HTML, CSS, JavaScript, React, Node.js, Express.js, and PHP. I have implemented REST APIs, databases, and user authentication in real-world projects. Additionally, I have solved over 300 DSA problems in Java, which reflects my strong problem-solving skills and coding proficiency.",
 
   stats: [
-    { number: "3+", label: "Real Projects" },
+    { number: "4+", label: "Real Projects" },
     { number: "300+", label: "DSA Problems Solved" },
-    { number: "8.2", label: "CGPA" },
+    { number: "8.3", label: "CGPA" },
     { number: "2+", label: "Internships" }
   ],
 
