@@ -60,6 +60,14 @@ const portfolioData = {
       github: "https://github.com/Mahboobraza01/myPortfolio",
       live: "https://my-portfolio-tltd.onrender.com/",
       emoji: "🎨"
+    },
+    {
+     title: "Tic-Tac-Toe",
+      desc: "Built a responsive Tic Tac Toe game with two play modes (human vs human, human vs computer) featuring win/draw detection, score tracking, and dynamic UI updates using vanilla JavaScript DOM manipulation.",
+      tech: ["JavaScript", "HTML", "CSS"],
+      github: "https://github.com/Mahboobraza01/TIC-TAC-TOE",
+      live: "https://mahboobraza01.github.io/TIC-TAC-TOE/",
+      emoji: "🎮" 
     }
   ],
 
