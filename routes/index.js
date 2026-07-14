@@ -22,10 +22,11 @@ const portfolioData = {
     { name: "Node.js", level: 80, icon: "🟢" },
     { name: "Express.js", level: 80, icon: "🚂" },
     { name: "MongoDB", level: 72, icon: "🍃" },
-    { name: "PHP / MySQL", level: 68, icon: "🐘" },
+    { name: "MySQL", level: 85, icon: "💾" },
     { name: "Java (DSA)", level: 75, icon: "☕" },
     { name: "Bootstrap", level: 85, icon: "🎨" },
-    { name: "REST APIs", level: 80, icon: "🔗" }
+    { name: "REST APIs", level: 80, icon: "🔗" },
+    { name: "PHP", level: 68, icon: "🐘" },
   ],
 
   projects: [
