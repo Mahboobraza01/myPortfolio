@@ -26,7 +26,7 @@ const portfolioData = {
     { name: "Java (DSA)", level: 75, icon: "☕" },
     { name: "Bootstrap", level: 85, icon: "🎨" },
     { name: "REST APIs", level: 80, icon: "🔗" },
-    { name: "PHP", level: 68, icon: "🐘" },
+    { name: "PHP", level: 60, icon: "🐘" },
   ],
 
   projects: [
