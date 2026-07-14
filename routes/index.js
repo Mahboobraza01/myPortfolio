@@ -22,10 +22,11 @@ const portfolioData = {
     { name: "Node.js", level: 80, icon: "🟢" },
     { name: "Express.js", level: 80, icon: "🚂" },
     { name: "MongoDB", level: 72, icon: "🍃" },
-    { name: "PHP / MySQL", level: 68, icon: "🐘" },
+    { name: "MySQL", level: 85, icon: "💾" },
     { name: "Java (DSA)", level: 75, icon: "☕" },
     { name: "Bootstrap", level: 85, icon: "🎨" },
-    { name: "REST APIs", level: 80, icon: "🔗" }
+    { name: "REST APIs", level: 80, icon: "🔗" },
+    { name: "PHP", level: 68, icon: "🐘" },
   ],
 
   projects: [
@@ -60,6 +61,14 @@ const portfolioData = {
       github: "https://github.com/Mahboobraza01/myPortfolio",
       live: "https://my-portfolio-tltd.onrender.com/",
       emoji: "🎨"
+    },
+    {
+     title: "Tic-Tac-Toe",
+      desc: "Built a responsive Tic Tac Toe game with two play modes (human vs human, human vs computer) featuring win/draw detection, score tracking, and dynamic UI updates using vanilla JavaScript DOM manipulation.",
+      tech: ["JavaScript", "HTML", "CSS"],
+      github: "https://github.com/Mahboobraza01/TIC-TAC-TOE",
+      live: "https://mahboobraza01.github.io/TIC-TAC-TOE/",
+      emoji: "🎮" 
     }
   ],
 
