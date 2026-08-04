@@ -74,23 +74,23 @@ const portfolioData = {
 
   experience: [
     {
-      role: "Full Stack Website Design & Development (Virtual)",
+      role: "Full Stack Website Design & Development (Online)",
       company: "Internship Studio (Remote)",
-      duration: "Jan 2026 – Present",
+      duration: "Jan 2026 – March 2026",
       points: [
-        "HTML, CSS, JavaScript, Bootstrap aur React mein structured virtual training complete ki",
-        "Capstone assignment ke roop mein responsive e-commerce website design aur develop kar raha hoon",
-        "Real-world project workflow aur best practices seekhi"
+        "Completed online training in HTML, CSS, JavaScript, Bootstrap",
+        "Developed and Design responsive e-commerce website as Capstone Assignment",
+        "Practice and Learn the workflow of Real-world Project"
       ]
     },
     {
-      role: "Web Development with AI (Virtual)",
+      role: "Web Development with AI (Online)",
       company: "Internshala Training (Remote)",
       duration: "Oct 2024 – Dec 2024",
       points: [
-        "HTML, CSS, JavaScript, PHP, MySQL aur React mein hands-on experience haasil kiya",
-        "City-wise search aur filtering ke saath responsive PG accommodation website banaya",
-        "AI tools ko web development workflow mein integrate karna seekha",
+        "Gained Hand-on experience in HTML, CSS, JavaScript, PHP and REact.",
+        "Developed a responsive PG (paying guest) accommodation platform with city-wise search and dynamic filtering, improving property discoverability for users across multiple cities",
+        "Integrated AI tools into the web development workflow, accelerating debugging, code review, and feature delivery",
         "Certificate: Web Development with AI – Internshala (Sep 2025)"
       ]
     },
@@ -101,7 +101,7 @@ const portfolioData = {
       points: [
         "CGPA: 8.2 — consistent academic performance",
         "Core subjects: Data Structures, Algorithms, DBMS, OS, Web Technologies",
-        "200+ DSA problems solved on LeetCode aur GeeksForGeeks using Java"
+        "300+ DSA problems solved on LeetCode using Java"
       ]
     }
   ],
