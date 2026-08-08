@@ -900,3 +900,14 @@ img { max-width: 100%; }
 @media (max-width: 768px) {
   .dsa-grid { grid-template-columns: 1fr; }
 }
+
+/* Blinking cursor */
+.cursor {
+  color: var(--yellow);
+  font-weight: 700;
+  animation: blink 0.7s step-end infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
