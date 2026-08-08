@@ -82,5 +82,76 @@ function toggleDSA(level) {
   }
 }
 
+// ─── SEQUENCE TEXT ANIMATION ───────────────────────────────────────
+const words = ["Full Stack Developer", "MERN Stack Developer", "Software Developer"];
+let wordIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+
+function typeEffect() {
+  const el = document.getElementById('typed-text');
+  if (!el) return;
+
+  const currentWord = words[wordIndex];
+
+  if (isDeleting) {
+    el.textContent = currentWord.substring(0, charIndex - 1);
+    charIndex--;
+  } else {
+    el.textContent = currentWord.substring(0, charIndex + 1);
+    charIndex++;
+  }
+
+  let speed = isDeleting ? 60 : 100;
+
+  if (!isDeleting && charIndex === currentWord.length) {
+    speed = 1500; // ruko thoda
+    isDeleting = true;
+  } else if (isDeleting && charIndex === 0) {
+    isDeleting = false;
+    wordIndex = (wordIndex + 1) % words.length;
+    speed = 400;
+  }
+
+  setTimeout(typeEffect, speed);
+}
+
+// Start karo
+typeEffect();
+
+
+// ─── COUNT UP ANIMATION ────────────────────────────────────────────
+function countUp(el, target, duration = 1500) {
+  const isDecimal = target % 1 !== 0;
+  const suffix = el.dataset.suffix || '';
+  let start = 0;
+  const step = target / (duration / 16);
+
+  const timer = setInterval(() => {
+    start += step;
+    if (start >= target) {
+      start = target;
+      clearInterval(timer);
+    }
+    el.textContent = isDecimal 
+      ? start.toFixed(1) + suffix 
+      : Math.floor(start) + suffix;
+  }, 16);
+}
+
+// Scroll pe trigger karo
+const countEls = document.querySelectorAll('.count-up');
+
+const countObserver = new IntersectionObserver((entries) => {
+  entries.forEach(el => {
+    if (el.isIntersecting && !el.target.dataset.counted) {
+      el.target.dataset.counted = true;
+      const target = parseFloat(el.target.dataset.target);
+      countUp(el.target, target);
+    }
+  });
+}, { threshold: 0.5 });
+
+countEls.forEach(el => countObserver.observe(el));
 
 console.log('🚀 Portfolio loaded! Happy coding!');
