@@ -68,4 +68,19 @@ window.addEventListener('scroll', () => {
   }
 });
 
+// ─── DSA TOGGLE ────────────────────────────────────────────────────
+function toggleDSA(level) {
+  const list  = document.getElementById('list-' + level);
+  const arrow = document.getElementById('arrow-' + level);
+
+  if (list.classList.contains('open')) {
+    list.classList.remove('open');
+    arrow.classList.remove('open');
+  } else {
+    list.classList.add('open');
+    arrow.classList.add('open');
+  }
+}
+
+
 console.log('🚀 Portfolio loaded! Happy coding!');
