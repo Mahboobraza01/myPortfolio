@@ -5,7 +5,7 @@ const router = express.Router();
 const portfolioData = {
   name: "Mahboob Raza",
   title: "Aspiring Full Stack Web Developer",
-  tagline: "B.Tech CSE (May 2026) | MERN Stack | 200+ DSA Problems Solved 🚀",
+  tagline: "B.Tech CSE (May 2026) | MERN Stack | 300+ DSA Problems Solved 🚀",
   about: "I am a passionate Full Stack Developer (B.Tech CSE, May 2026) with hands-on experience in building responsive web applications using modern technologies.I specialize in creating responsive web applications and have practical experience with HTML, CSS, JavaScript, React, Node.js, Express.js, and PHP. I have implemented REST APIs, databases, and user authentication in real-world projects. Additionally, I have solved over 300 DSA problems in Java, which reflects my strong problem-solving skills and coding proficiency.",
 
   stats: [
