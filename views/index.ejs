@@ -15,7 +15,7 @@
       <h1 class="hero-title">
         Hi, I'm <span class="highlight"><%= data.name %></span>
       </h1>
-      <p class="hero-subtitle"><%= data.title %></p>
+      <p class="hero-subtitle"><span id="typed-text"></span><span class="cursor">|</span></p>
       <p class="hero-tagline"><%= data.tagline %></p>
       <div class="hero-cta">
         <a href="/projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
@@ -49,7 +49,7 @@
     <span class="c-str">"React"</span>, <span class="c-str">"Node.js"</span>,
     <span class="c-str">"MongoDB"</span>, <span class="c-str">"Express.js"</span>
   ],
-  <span class="c-key">dsa</span>: <span class="c-str">"300+ problems"</span>,
+  <span class="c-key">dsa</span>: <span class="c-str"><%= data.dsaProblems.easy.questions.length + data.dsaProblems.medium.questions.length + data.dsaProblems.hard.questions.length %></span>,
   <span class="c-key">available</span>: <span class="c-bool">true</span> <span class="c-comment">// hire me!</span>
 };</code></pre>
       </div>
@@ -61,15 +61,28 @@
 <section class="stats">
   <div class="container">
     <div class="stats-grid">
-      <% data.stats.forEach(stat => { %>
       <div class="stat-card">
-        <h3 class="stat-number"><%= stat.number %></h3>
-        <p class="stat-label"><%= stat.label %></p>
+        <h3 class="stat-number count-up" data-target="4" data-suffix="+">0+</h3>
+        <p class="stat-label">Real Projects</p>
       </div>
-      <% }) %>
+      <div class="stat-card">
+        <h3 class="stat-number count-up" 
+            data-target="<%= data.dsaProblems.easy.questions.length + data.dsaProblems.medium.questions.length + data.dsaProblems.hard.questions.length %>" 
+            data-suffix="+">0+</h3>
+        <p class="stat-label">DSA Problems Solved</p>
+      </div>
+      <div class="stat-card">
+        <h3 class="stat-number count-up" data-target="8.2" data-suffix="">0.0</h3>
+        <p class="stat-label">CGPA</p>
+      </div>
+      <div class="stat-card">
+        <h3 class="stat-number count-up" data-target="2" data-suffix="+">0+</h3>
+        <p class="stat-label">Internships</p>
+      </div>
     </div>
   </div>
 </section>
+
 <!-- ─── DSA SECTION ──────────────────────────────────────────────── -->
 <section class="dsa-section section">
   <div class="container">
@@ -85,7 +98,9 @@
         <div class="dsa-top" onclick="toggleDSA('easy')">
           <div>
             <span class="dsa-label">Easy</span>
-            <h3 class="dsa-number"><%= data.dsaProblems.easy.count %></h3>
+            <h3 class="dsa-number count-up" 
+    data-target="<%= data.dsaProblems.easy.questions.length %>" 
+    data-suffix="">0</h3>
             <p class="dsa-sub">Problems Solved</p>
           </div>
           <div class="dsa-right">
@@ -114,7 +129,9 @@
         <div class="dsa-top" onclick="toggleDSA('medium')">
           <div>
             <span class="dsa-label">Medium</span>
-            <h3 class="dsa-number"><%= data.dsaProblems.medium.count %></h3>
+            <h3 class="dsa-number count-up" 
+    data-target="<%= data.dsaProblems.medium.questions.length %>" 
+    data-suffix="">0</h3>
             <p class="dsa-sub">Problems Solved</p>
           </div>
           <div class="dsa-right">
@@ -143,7 +160,9 @@
         <div class="dsa-top" onclick="toggleDSA('hard')">
           <div>
             <span class="dsa-label">Hard</span>
-            <h3 class="dsa-number"><%= data.dsaProblems.hard.count %></h3>
+            <h3 class="dsa-number count-up" 
+    data-target="<%= data.dsaProblems.hard.questions.length %>" 
+    data-suffix="">0</h3>
             <p class="dsa-sub">Problems Solved</p>
           </div>
           <div class="dsa-right">
