@@ -39,7 +39,6 @@ const portfolioData = {
       { name: "14. Longest Common Prefix", link: "https://leetcode.com/problems/longest-common-prefix/" },
       { name: "20. Valid Parentheses", link: "https://leetcode.com/problems/valid-parentheses/" },
       { name: "21. Merge Two Sorted Lists", link: "https://leetcode.com/problems/merge-two-sorted-lists/" },
-      { name: "23. Merge k Sorted Lists", link: "https://leetcode.com/problems/merge-k-sorted-lists/" },
       { name: "26. Remove Duplicates from Sorted Array", link: "https://leetcode.com/problems/remove-duplicates-from-sorted-array/" },
       { name: "27. Remove Element", link: "https://leetcode.com/problems/remove-element/" },
       { name: "28. Find the Index of the First Occurrence in a String", link: "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/" },
