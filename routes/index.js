@@ -43,7 +43,6 @@ const portfolioData = {
       { name: "27. Remove Element", link: "https://leetcode.com/problems/remove-element/" },
       { name: "28. Find the Index of the First Occurrence in a String", link: "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/" },
       { name: "35. Search Insert Position", link: "https://leetcode.com/problems/search-insert-position/" },
-      { name: "42. Trapping Rain Water", link: "https://leetcode.com/problems/trapping-rain-water/" },
       { name: "58. Length of Last Word", link: "https://leetcode.com/problems/length-of-last-word/" },
       { name: "66. Plus One", link: "https://leetcode.com/problems/plus-one/" },
       { name: "67. Add Binary", link: "https://leetcode.com/problems/add-binary/" },
