@@ -262,6 +262,7 @@ const portfolioData = {
       { name: "3536.  Maximum Product of Two Digits", link: "https://leetcode.com/problems/maximum-product-of-two-digits/description/" },
        { name: "3633. Earliest Finish Time for Land and Water Rides I", link: "https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/" },
       { name: "3684. Maximum Sum of Subsequence With Non-adjacent Elements", link: "https://leetcode.com/problems/maximum-sum-of-subsequence-with-non-adjacent-elements/" },
+       { name: "3731. Find Missing Elements", link: "https://leetcode.com/problems/find-missing-elements/description/?envType=problem-list-v2&envId=sorting" },
     ]
   },
   medium: {
