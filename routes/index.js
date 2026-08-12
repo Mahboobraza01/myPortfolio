@@ -275,6 +275,7 @@ const portfolioData = {
       { name: "15. 3Sum", link: "https://leetcode.com/problems/3sum/" },
       { name: "16. 3Sum Closest", link: "https://leetcode.com/problems/3sum-closest/" },
       { name: "18. 4Sum", link: "https://leetcode.com/problems/4sum/" },
+       { name: "19.  Remove Nth Node From End of List", link: "https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/" },
       { name: "33. Search in Rotated Sorted Array", link: "https://leetcode.com/problems/search-in-rotated-sorted-array/" },
       { name: "34. Find First and Last Position of Element in Sorted Array", link: "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/" },
       { name: "43. Multiply Strings", link: "https://leetcode.com/problems/multiply-strings/" },
