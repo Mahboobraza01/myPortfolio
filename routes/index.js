@@ -10,9 +10,9 @@ const portfolioData = {
 
   stats: [
     { number: "4+", label: "Real Projects" },
-    { number: "300+", label: "DSA Problems Solved" },
+    { number: "350+", label: "DSA Problems Solved" },
     { number: "8.3", label: "CGPA" },
-    { number: "2+", label: "Internships" }
+    { number: "3+", label: "Internships" }
   ],
 
   skills: [
