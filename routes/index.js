@@ -9,7 +9,7 @@ const portfolioData = {
   about: "I am a passionate Full Stack Developer (B.Tech CSE, May 2026) with hands-on experience in building responsive web applications using modern technologies.I specialize in creating responsive web applications and have practical experience with HTML, CSS, JavaScript, React, Node.js, Express.js, and PHP. I have implemented REST APIs, databases, and user authentication in real-world projects. Additionally, I have solved over 300 DSA problems in Java, which reflects my strong problem-solving skills and coding proficiency.",
 
   stats: [
-    { number: "5+", label: "Real Projects" },
+    { number: "6+", label: "Real Projects" },
     { number: "300+", label: "DSA Problems Solved" },
     { number: "8.3", label: "CGPA" },
     { number: "3+", label: "Internships" }
@@ -405,7 +405,15 @@ const portfolioData = {
       github: "https://github.com/Mahboobraza01/TIC-TAC-TOE",
       live: "https://mahboobraza01.github.io/TIC-TAC-TOE/",
       emoji: "🎮" 
-    }
+    },
+     {
+      title: "Wordpress Portfolio Website",
+      desc: "Created a personal portfolio website using WordPress and plugins to gain hands-on experience with no-code/low-code website development. Customized the website layout, sections, navigation, and design using WordPress tools and plugins, without building the core functionality from scratch.",
+      tech: ["Wordpress", "Plugins", "Theme", "Elementor"],
+      github: "https://github.com/Mahboobraza01/myPortfolio",
+      live: "https://mahboob-portfolio.infinityfreeapp.com/?i=1",
+      emoji: "📋"
+    },
   ],
 
   experience: [
