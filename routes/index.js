@@ -372,7 +372,7 @@ const portfolioData = {
       tech: ["Node.js", "Express.js", "React", "MongoDB"],
       github: "https://github.com/Mahboobraza01/AI-agent-Project",
       live: "https://ai-agent-project-client.onrender.com/",
-      emoji: "🏕️"
+      emoji: "🤖"
     },
     {
       title: "PG Life – PG Accommodation Website",
