@@ -408,7 +408,7 @@ const portfolioData = {
     },
      {
       title: "Wordpress Portfolio Website",
-      desc: "Created a personal portfolio website using WordPress and plugins to gain hands-on experience with no-code/low-code website development. Customized the website layout, sections, navigation, and design using WordPress tools and plugins, without building the core functionality from scratch.",
+      desc: "Personal Portfolio Website – Built a responsive personal portfolio using WordPress and plugins to showcase my skills, projects, education, and achievements with a clean and user-friendly interface.",
       tech: ["Wordpress", "Plugins", "Theme", "Elementor"],
       github: "https://github.com/Mahboobraza01/myPortfolio",
       live: "https://mahboob-portfolio.infinityfreeapp.com/?i=1",
