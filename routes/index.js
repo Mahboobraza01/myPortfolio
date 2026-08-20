@@ -370,7 +370,7 @@ const portfolioData = {
       title: "AI-Interview Agent",
       desc: "Full-stack accommodation booking platform with user authentication, CRUD listings, image uploads, reviews, and payment integration for better booking experience.",
       tech: ["Node.js", "Express.js", "React", "MongoDB"],
-      github: "https://github.com/Mahboobraza01/wanderlust",
+      github: "https://github.com/Mahboobraza01/AI-agent-Project",
       live: "https://ai-agent-project-client.onrender.com/",
       emoji: "🏕️"
     },
