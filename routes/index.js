@@ -410,7 +410,6 @@ const portfolioData = {
       title: "Wordpress Portfolio Website",
       desc: "Personal Portfolio Website – Built a responsive personal portfolio using WordPress and plugins to showcase my skills, projects, education, and achievements with a clean and user-friendly interface.",
       tech: ["Wordpress", "Plugins", "Theme", "Elementor"],
-      github: "https://github.com/Mahboobraza01/myPortfolio",
       live: "https://mahboob-portfolio.infinityfreeapp.com/?i=1",
       emoji: "Ⓦ"
     },
