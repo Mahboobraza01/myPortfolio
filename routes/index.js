@@ -5,12 +5,12 @@ const router = express.Router();
 const portfolioData = {
   name: "Mahboob Raza",
   title: "Aspiring Full Stack Web Developer",
-  tagline: "B.Tech CSE (May 2026) | MERN Stack | 300+ DSA Problems Solved 🚀",
+  tagline: "B.Tech CSE (May 2026) | MERN Stack | 310+ DSA Problems Solved 🚀",
   about: "I am a passionate Full Stack Developer (B.Tech CSE, May 2026) with hands-on experience in building responsive web applications using modern technologies.I specialize in creating responsive web applications and have practical experience with HTML, CSS, JavaScript, React, Node.js, Express.js, and PHP. I have implemented REST APIs, databases, and user authentication in real-world projects. Additionally, I have solved over 300 DSA problems in Java, which reflects my strong problem-solving skills and coding proficiency.",
 
   stats: [
     { number: "6+", label: "Real Projects" },
-    { number: "300+", label: "DSA Problems Solved" },
+    { number: "310+", label: "DSA Problems Solved" },
     { number: "8.3", label: "CGPA" },
     { number: "3+", label: "Internships" }
   ],
@@ -396,7 +396,7 @@ const portfolioData = {
       tech: ["Node.js", "Express.js", "EJS", "CSS"],
       github: "https://github.com/Mahboobraza01/myPortfolio",
       live: "https://my-portfolio-tltd.onrender.com/",
-      emoji: "🎨"
+      emoji: "🧑‍💼"
     },
     {
      title: "Tic-Tac-Toe",
@@ -412,7 +412,7 @@ const portfolioData = {
       tech: ["Wordpress", "Plugins", "Theme", "Elementor"],
       github: "https://github.com/Mahboobraza01/myPortfolio",
       live: "https://mahboob-portfolio.infinityfreeapp.com/?i=1",
-      emoji: "📋"
+      emoji: "Ⓦ"
     },
   ],
 
