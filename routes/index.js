@@ -366,6 +366,14 @@ const portfolioData = {
       live: "https://wanderlust-2i83.onrender.com/listings",
       emoji: "🏕️"
     },
+     {
+      title: "AI-Interview Agent",
+      desc: "Full-stack accommodation booking platform with user authentication, CRUD listings, image uploads, reviews, and payment integration for better booking experience.",
+      tech: ["Node.js", "Express.js", "React", "MongoDB"],
+      github: "https://github.com/Mahboobraza01/wanderlust",
+      live: "https://ai-agent-project-client.onrender.com/",
+      emoji: "🏕️"
+    },
     {
       title: "PG Life – PG Accommodation Website",
       desc: "A Responsive PG accommodation website with city-wise search and filtering. The frontend is built using React, and the backend is developed with PHP + MySQL, connected via REST APIs.",
