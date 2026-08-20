@@ -368,7 +368,7 @@ const portfolioData = {
     },
      {
       title: "InterviewIQ.AI — AI-Powered Mock Interview Platform",
-      desc: "InterviewIQ.AI is a full-stack MERN application that helps candidates practice job interviews using AI. Users sign in with Google, upload their resume, and select a role, experience level, and interview mode (HR or Technical). The AI (via OpenRouter/GPT-4o-mini) parses the resume and generates 5 personalized, difficulty-progressive interview questions. Each spoken/typed answer is evaluated in real time on confidence, communication, and correctness, and the platform generates a detailed performance report with question-wise feedback and score history. A credits-based system, backed by Razorpay payment integration, controls access to interview sessions.",
+      desc: "InterviewIQ.AI — AI-powered mock interview platform where users upload their resume, get AI-generated interview questions based on their role and experience, and receive real-time scored feedback on confidence, communication, and correctness — with Razorpay-based credits and a full performance report.",
       tech: ["Node.js", "Express.js", "React", "MongoDB"],
       github: "https://github.com/Mahboobraza01/AI-agent-Project",
       live: "https://ai-agent-project-client.onrender.com/",
