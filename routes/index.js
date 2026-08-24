@@ -348,6 +348,7 @@ const portfolioData = {
       { name: "2095. Delete the Middle Node of a Linked List", link: "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/" },
       { name: "2221. Find Triangular Sum of an Array", link: "https://leetcode.com/problems/find-triangular-sum-of-an-array/" },
       { name: "2433. Find The Original Array of Prefix Xor", link: "https://leetcode.com/problems/find-the-original-array-of-prefix-xor/" },
+         { name: "2487. Remove Nodes From Linked List", link: "https://leetcode.com/problems/remove-nodes-from-linked-list/description/" },
        { name: "2807. Insert Greatest Common Divisors in Linked List", link: "https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/" },
         { name: "3217.  Delete Nodes From Linked List Present in Array", link: "https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/" },
       { name: "3475. DNA Pattern Recognition", link: "https://leetcode.com/problems/dna-pattern-recognition/" },
@@ -362,6 +363,7 @@ const portfolioData = {
     questions: [
       { name: "4. Median of Two Sorted Arrays", link: "https://leetcode.com/problems/median-of-two-sorted-arrays/" },
       { name: "23. Merge k Sorted Lists", link: "https://leetcode.com/problems/merge-k-sorted-lists/" },
+       { name: "25. Reverse Nodes in k-Group", link: "https://leetcode.com/problems/reverse-nodes-in-k-group/description/" },
       { name: "42. Trapping Rain Water", link: "https://leetcode.com/problems/trapping-rain-water/" },
       { name: "84. Largest Rectangle in Histogram", link: "https://leetcode.com/problems/largest-rectangle-in-histogram/" },
       { name: "2156. Find Substring With Given Hash Value", link: "https://leetcode.com/problems/find-substring-with-given-hash-value/" },
