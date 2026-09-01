@@ -352,6 +352,8 @@ const portfolioData = {
        { name: "2807. Insert Greatest Common Divisors in Linked List", link: "https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/" },
         { name: "3217.  Delete Nodes From Linked List Present in Array", link: "https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/" },
       { name: "3475. DNA Pattern Recognition", link: "https://leetcode.com/problems/dna-pattern-recognition/" },
+       { name: "3497. Analyze Subscription Conversion ", link: "https://leetcode.com/problems/analyze-subscription-conversion/description/" },
+       { name: "3657. Find Loyal Customers", link: "https://leetcode.com/problems/find-loyal-customers/description/" },
       { name: "3847. Smallest Number With All Positive Bits Set", link: "https://leetcode.com/problems/smallest-number-with-all-positive-bits-set/" },
       { name: "3848. Word Frequencies", link: "https://leetcode.com/problems/word-frequencies/" },
       { name: "3849. Maximum Destroyed Robots", link: "https://leetcode.com/problems/maximum-destroyed-robots/" },
