@@ -148,6 +148,7 @@ const portfolioData = {
       { name: "696. Count Binary Substrings", link: "https://leetcode.com/problems/count-binary-substrings/description/" },
       { name: "705. Design HashSet", link: "https://leetcode.com/problems/design-hashset/" },
       { name: "709. To Lower Case", link: "https://leetcode.com/problems/to-lower-case/" },
+       { name: "724. Find Pivot Index", link: "https://leetcode.com/problems/find-pivot-index/description/" },
       { name: "771. Jewels and Stones", link: "https://leetcode.com/problems/jewels-and-stones/" },
       { name: "783. Minimum Distance Between BST Nodes", link: "https://leetcode.com/problems/minimum-distance-between-bst-nodes/" },
       { name: "804. Unique Morse Code Words", link: "https://leetcode.com/problems/unique-morse-code-words/" },
