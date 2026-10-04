@@ -22,6 +22,27 @@
   </div>
 </footer>
 
+<aside class="ai-chat" aria-label="Portfolio AI assistant">
+  <section class="ai-chat-panel" id="ai-chat-panel" aria-label="Ask about my portfolio" hidden>
+    <div class="ai-chat-heading">
+      <div><strong>Ask my AI assistant</strong><span>Questions about my work and projects</span></div>
+      <button class="ai-chat-close" type="button" aria-label="Close assistant">×</button>
+    </div>
+    <div class="ai-chat-messages" id="ai-chat-messages" aria-live="polite">
+      <p class="ai-chat-message assistant">Hi! Ask me about my skills, projects, or experience.</p>
+    </div>
+    <form class="ai-chat-form" id="ai-chat-form">
+      <label class="visually-hidden" for="ai-chat-query">Your question</label>
+      <input id="ai-chat-query" name="query" type="text" maxlength="1000" placeholder="Ask a question…" autocomplete="off" required>
+      <button type="submit" aria-label="Send question"><i class="fas fa-paper-plane"></i></button>
+    </form>
+  </section>
+  <button class="ai-chat-toggle" type="button" aria-controls="ai-chat-panel" aria-expanded="false">
+    <i class="fas fa-comment-dots"></i><span>Ask AI</span>
+  </button>
+</aside>
+
 <script src="/js/main.js"></script>
+<script src="/js/chat.js" defer></script>
 </body>
 </html>

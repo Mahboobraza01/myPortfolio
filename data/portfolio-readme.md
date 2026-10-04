@@ -84,7 +84,7 @@ portfolio/
 ## ⚡ Run Locally
 
 ### Prerequisites
-- Node.js v18 or newer
+- Node.js v14+
 - npm
 - Git
 
@@ -100,16 +100,10 @@ cd myPortfolio
 # 3. Install dependencies
 npm install
 
-# 4. Create .env from .env.example and add your OpenAI API key
-Copy-Item .env.example .env
-
-# 5. Generate the AI assistant knowledge base
-npm run embed
-
-# 6. Start dev server (auto-restart)
+# 4. Start dev server (auto-restart)
 npm run dev
 
-# 7. Open browser
+# 5. Open browser
 http://localhost:3000
 ```
 
@@ -122,22 +116,27 @@ npm start
 
 ## 📧 Contact Form Email Setup
 
-### Step 1 — Get a Gmail App Password
+### Step 1 — Install Nodemailer
+```bash
+npm install nodemailer
+```
+
+### Step 2 — Get Gmail App Password
 1. [myaccount.google.com](https://myaccount.google.com) → Security
 2. 2-Step Verification → ON
 3. Search **"App Passwords"** → Generate
 4. Copy 16-character password
 
-### Step 2 — Configure environment variables
-Set `CONTACT_EMAIL` and `CONTACT_EMAIL_PASSWORD` in `.env` for local development and in your hosting provider's environment settings for deployment. Do not put credentials in source code or commit `.env`.
-
----
-
-## 🤖 AI Portfolio Assistant
-
-The floating **Ask AI** button sends questions to `/api/chat`. The assistant retrieves relevant text from `data/` using an OpenAI embedding index, then uses the OpenAI chat API to answer. Set `OPENAI_API_KEY` in `.env` and generate the index with `npm run embed` whenever the source documents change. The generated `vector-store.json` is intentionally ignored by Git.
-
-For Render, set `OPENAI_API_KEY` in the service environment and use `npm install && npm run embed` as the build command. Set the contact email environment variables there if you want the contact form to send email. OpenAI usage may incur charges.
+### Step 3 — Update `routes/contact.js`
+```javascript
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: 'mahboobraza.muz@gmail.com',
+    pass: 'xxxx xxxx xxxx xxxx'  // App Password
+  }
+});
+```
 
 ---
 

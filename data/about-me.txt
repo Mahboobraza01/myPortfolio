@@ -1,0 +1,61 @@
+ABOUT ME — MAHBOOB RAZA
+
+PERSONAL INFO
+Name: Mahboob Raza
+Location: Mahipalpur, New Delhi, India
+Education: B.Tech in Computer Science Engineering, Gurukul Kangri Vishwavidyalaya (Graduated 2026), CGPA ~8.3
+
+SUMMARY
+I am a MERN Stack Developer with hands-on experience building real-world full-stack web applications implementing REST APIs, authentication systems, and the MVC pattern. I have decent Data Structures & Algorithms knowledge in Java (300+ LeetCode problems solved) and am actively job-searching in India for fresher roles as a MERN Stack Developer, Full Stack Web Developer, or Software Developer, primarily targeting the Noida/Delhi/Gurgaon NCR region. I'm also open to fresher backend developer roles.
+
+
+KEY PROJECTS
+
+1. AI Interview Agent (most technically ambitious project)
+   - MERN stack app with Razorpay payment integration, PDF upload, Framer Motion UI
+   - Deployed on Render; resolved MongoDB Atlas SRV DNS resolution issues on Render's free tier
+
+2. Wanderlust — MERN Travel Booking App
+   - Stack: Node.js, Express, MongoDB, EJS, Cloudinary
+   - Session-based authentication via Passport.js + passport-local-mongoose
+   - Joi validation, flash messages, full MVC structure (controllers/models/routes/views)
+
+3. PG Life — PG/Accommodation Listing Site
+   - Stack: PHP, MySQL, React
+
+4. Personal Portfolio Website
+   - Stack: Node.js/Express.js with EJS templating
+   - Dark theme with yellow accents, typewriter animation, DSA problems section
+   - Deployed on Render (after working through Railway.app deployment challenges)
+   - Built around key projects: Wanderlust, PG Life, and Weather Telegram Bot
+
+5. Weather Telegram Bot
+   - Stack: Node.js, Telegraf, OpenWeatherMap API
+   - Features city lookup and rain/thunderstorm/hot/cold alerts
+   - Deployed on Render; handled bot sleep issues on free tier
+
+
+
+
+
+CERTIFICATIONS
+- IBM JavaScript Backend Developer Professional Certificate (Course 5: Node.js/Express)
+- IBM "Node and Express Essentials" (Coursera), issued August 10, 2026
+
+WORK EXPERIENCE
+-Internship in Vertokit (Noida)
+- Internship at Internship Studio
+- Internship at Internshala
+
+
+JOB SEARCH STATUS
+- Actively applying to MERN/full-stack roles in Noida–Delhi NCR
+- Maintains two resume variants: general Software Developer and Full Stack Developer (default)
+- Appeared for Infosys off-campus SP/DSE coding test
+
+- Registered for TCS NQT (exam scheduled August 26, 2026)
+
+
+OTHER
+- Improving English speaking and reading fluency
+- Explored integrating AI chatbots into MERN projects using the Anthropic API

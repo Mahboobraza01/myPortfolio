@@ -5,14 +5,14 @@ const router = express.Router();
 const portfolioData = {
   name: "Mahboob Raza",
   title: "Aspiring Full Stack Web Developer",
-  tagline: "B.Tech CSE (May 2026) | MERN Stack | 300+ DSA Problems Solved 🚀",
+  tagline: "B.Tech CSE (May 2026) | MERN Stack | 310+ DSA Problems Solved 🚀",
   about: "I am a passionate Full Stack Developer (B.Tech CSE, May 2026) with hands-on experience in building responsive web applications using modern technologies.I specialize in creating responsive web applications and have practical experience with HTML, CSS, JavaScript, React, Node.js, Express.js, and PHP. I have implemented REST APIs, databases, and user authentication in real-world projects. Additionally, I have solved over 300 DSA problems in Java, which reflects my strong problem-solving skills and coding proficiency.",
 
   stats: [
-    { number: "3+", label: "Real Projects" },
-    { number: "300+", label: "DSA Problems Solved" },
-    { number: "8.2", label: "CGPA" },
-    { number: "2+", label: "Internships" }
+    { number: "6+", label: "Real Projects" },
+    { number: "310+", label: "DSA Problems Solved" },
+    { number: "8.3", label: "CGPA" },
+    { number: "3+", label: "Internships" }
   ],
 
   skills: [
@@ -26,9 +26,9 @@ const portfolioData = {
     { name: "Java (DSA)", level: 75, icon: "☕" },
     { name: "Bootstrap", level: 85, icon: "🎨" },
     { name: "REST APIs", level: 80, icon: "🔗" },
-    { name: "PHP", level: 68, icon: "🐘" },
+    { name: "PHP", level: 60, icon: "🐘" },
   ],
-   dsaProblems: {
+  dsaProblems: {
   easy: {
     count: 175,
     percent: 85,
@@ -39,12 +39,10 @@ const portfolioData = {
       { name: "14. Longest Common Prefix", link: "https://leetcode.com/problems/longest-common-prefix/" },
       { name: "20. Valid Parentheses", link: "https://leetcode.com/problems/valid-parentheses/" },
       { name: "21. Merge Two Sorted Lists", link: "https://leetcode.com/problems/merge-two-sorted-lists/" },
-      { name: "23. Merge k Sorted Lists", link: "https://leetcode.com/problems/merge-k-sorted-lists/" },
       { name: "26. Remove Duplicates from Sorted Array", link: "https://leetcode.com/problems/remove-duplicates-from-sorted-array/" },
       { name: "27. Remove Element", link: "https://leetcode.com/problems/remove-element/" },
       { name: "28. Find the Index of the First Occurrence in a String", link: "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/" },
       { name: "35. Search Insert Position", link: "https://leetcode.com/problems/search-insert-position/" },
-      { name: "42. Trapping Rain Water", link: "https://leetcode.com/problems/trapping-rain-water/" },
       { name: "58. Length of Last Word", link: "https://leetcode.com/problems/length-of-last-word/" },
       { name: "66. Plus One", link: "https://leetcode.com/problems/plus-one/" },
       { name: "67. Add Binary", link: "https://leetcode.com/problems/add-binary/" },
@@ -67,6 +65,7 @@ const portfolioData = {
       { name: "141. Linked List Cycle", link: "https://leetcode.com/problems/linked-list-cycle/" },
       { name: "144. Binary Tree Preorder Traversal", link: "https://leetcode.com/problems/binary-tree-preorder-traversal/" },
       { name: "145. Binary Tree Postorder Traversal", link: "https://leetcode.com/problems/binary-tree-postorder-traversal/" },
+      { name: "160. Intersection of Two Linked Lists", link:" https://leetcode.com/problems/intersection-of-two-linked-lists/description/" },
       { name: "168. Excel Sheet Column Title", link: "https://leetcode.com/problems/excel-sheet-column-title/" },
       { name: "169. Majority Element", link: "https://leetcode.com/problems/majority-element/" },
       { name: "171. Excel Sheet Column Number", link: "https://leetcode.com/problems/excel-sheet-column-number/" },
@@ -106,6 +105,7 @@ const portfolioData = {
       { name: "383. Ransom Note", link: "https://leetcode.com/problems/ransom-note/" },
       { name: "387. First Unique Character in a String", link: "https://leetcode.com/problems/first-unique-character-in-a-string/" },
       { name: "389. Find the Difference", link: "https://leetcode.com/problems/find-the-difference/" },
+       { name: "392. Is Subsequence", link: "https://leetcode.com/problems/is-subsequence/description/" },
       { name: "404. Sum of Left Leaves", link: "https://leetcode.com/problems/sum-of-left-leaves/" },
       { name: "412. Fizz Buzz", link: "https://leetcode.com/problems/fizz-buzz/" },
       { name: "414. Third Maximum Number", link: "https://leetcode.com/problems/third-maximum-number/" },
@@ -122,6 +122,7 @@ const portfolioData = {
       { name: "530. Minimum Absolute Difference in BST", link: "https://leetcode.com/problems/minimum-absolute-difference-in-bst/" },
       { name: "543. Diameter of Binary Tree", link: "https://leetcode.com/problems/diameter-of-binary-tree/" },
       { name: "557. Reverse Words in a String III", link: "https://leetcode.com/problems/reverse-words-in-a-string-iii/" },
+       { name: "561. Array Partition", link: "https://leetcode.com/problems/array-partition/description/" },
       { name: "572. Subtree of Another Tree", link: "https://leetcode.com/problems/subtree-of-another-tree/" },
       { name: "575. Distribute Candies", link: "https://leetcode.com/problems/distribute-candies/" },
       { name: "577. Employee Bonus", link: "https://leetcode.com/problems/employee-bonus/" },
@@ -156,6 +157,7 @@ const portfolioData = {
       { name: "867. Transpose Matrix", link: "https://leetcode.com/problems/transpose-matrix/" },
       { name: "876. Middle of the Linked List", link: "https://leetcode.com/problems/middle-of-the-linked-list/" },
       { name: "884. Uncommon Words from Two Sentences", link: "https://leetcode.com/problems/uncommon-words-from-two-sentences/" },
+      { name: "888. Fair Candy Swap", link: "https://leetcode.com/problems/fair-candy-swap/description/" },
       { name: "905. Sort Array By Parity", link: "https://leetcode.com/problems/sort-array-by-parity/" },
       { name: "922. Sort Array By Parity II", link: "https://leetcode.com/problems/sort-array-by-parity-ii/" },
       { name: "938. Range Sum of BST", link: "https://leetcode.com/problems/range-sum-of-bst/" },
@@ -193,6 +195,7 @@ const portfolioData = {
       { name: "1389. Create Target Array in the Given Order", link: "https://leetcode.com/problems/create-target-array-in-the-given-order/" },
       { name: "1408. String Matching in an Array", link: "https://leetcode.com/problems/string-matching-in-an-array/" },
       { name: "1431. Kids With the Greatest Number of Candies", link: "https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/" },
+      { name: "1436. Destination City", link: "https://leetcode.com/problems/destination-city/description/" },
       { name: "1470. Shuffle the Array", link: "https://leetcode.com/problems/shuffle-the-array/" },
       { name: "1475. Final Prices With a Special Discount in a Shop", link: "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/" },
       { name: "1480. Running Sum of 1d Array", link: "https://leetcode.com/problems/running-sum-of-1d-array/" },
@@ -230,9 +233,11 @@ const portfolioData = {
       { name: "1941. Check if All Characters Have Equal Number of Occurrences", link: "https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/" },
       { name: "1965. Employees With Missing Information", link: "https://leetcode.com/problems/employees-with-missing-information/" },
       { name: "1978. Employees Whose Manager Left the Company", link: "https://leetcode.com/problems/employees-whose-manager-left-the-company/" },
+       { name: "1984. Minimum Difference Between Highest and Lowest of K Scores", link: "https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/description/" },
       { name: "2000. Reverse Prefix of Word", link: "https://leetcode.com/problems/reverse-prefix-of-word/" },
       { name: "2011. Final Value of Variable After Performing Operations", link: "https://leetcode.com/problems/final-value-of-variable-after-performing-operations/" },
       { name: "2022. Convert 1D Array Into 2D Array", link: "https://leetcode.com/problems/convert-1d-array-into-2d-array/" },
+       { name: "2037.Minimum Number of Moves to Seat Everyone", link: "https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/" },
       { name: "2089. Find Target Indices After Sorting Array", link: "https://leetcode.com/problems/find-target-indices-after-sorting-array/" },
       { name: "2094. Finding 3-Digit Even Numbers", link: "https://leetcode.com/problems/finding-3-digit-even-numbers/" },
       { name: "2114. Maximum Number of Words Found in Sentences", link: "https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/" },
@@ -255,7 +260,10 @@ const portfolioData = {
       { name: "3158. Find the XOR of Numbers Which Appear Twice", link: "https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/" },
       { name: "3423. Maximum Difference Between Adjacent Elements in a Circular Array", link: "https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/" },
       { name: "3436. Find Valid Emails", link: "https://leetcode.com/problems/find-valid-emails/" },
+      { name: "3536.  Maximum Product of Two Digits", link: "https://leetcode.com/problems/maximum-product-of-two-digits/description/" },
+       { name: "3633. Earliest Finish Time for Land and Water Rides I", link: "https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/" },
       { name: "3684. Maximum Sum of Subsequence With Non-adjacent Elements", link: "https://leetcode.com/problems/maximum-sum-of-subsequence-with-non-adjacent-elements/" },
+       { name: "3731. Find Missing Elements", link: "https://leetcode.com/problems/find-missing-elements/description/?envType=problem-list-v2&envId=sorting" },
     ]
   },
   medium: {
@@ -269,6 +277,8 @@ const portfolioData = {
       { name: "15. 3Sum", link: "https://leetcode.com/problems/3sum/" },
       { name: "16. 3Sum Closest", link: "https://leetcode.com/problems/3sum-closest/" },
       { name: "18. 4Sum", link: "https://leetcode.com/problems/4sum/" },
+       { name: "19.  Remove Nth Node From End of List", link: "https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/" },
+        { name: "24.  Swap Nodes in Pairs", link: "https://leetcode.com/problems/swap-nodes-in-pairs/description/" },
       { name: "33. Search in Rotated Sorted Array", link: "https://leetcode.com/problems/search-in-rotated-sorted-array/" },
       { name: "34. Find First and Last Position of Element in Sorted Array", link: "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/" },
       { name: "43. Multiply Strings", link: "https://leetcode.com/problems/multiply-strings/" },
@@ -277,15 +287,19 @@ const portfolioData = {
       { name: "53. Maximum Subarray", link: "https://leetcode.com/problems/maximum-subarray/" },
       { name: "54. Spiral Matrix", link: "https://leetcode.com/problems/spiral-matrix/" },
       { name: "59. Spiral Matrix II", link: "https://leetcode.com/problems/spiral-matrix-ii/" },
+       { name: "61. Rotate List", link: "https://leetcode.com/problems/rotate-list/description/" },
       { name: "74. Search a 2D Matrix", link: "https://leetcode.com/problems/search-a-2d-matrix/" },
       { name: "75. Sort Colors", link: "https://leetcode.com/problems/sort-colors/" },
       { name: "80. Remove Duplicates from Sorted Array II", link: "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/" },
       { name: "82. Remove Duplicates from Sorted List II", link: "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/" },
+       { name: "86. Partition List", link: "https://leetcode.com/problems/partition-list/description/" },
+       { name: "92. Reverse Linked List II", link: "https://leetcode.com/problems/reverse-linked-list-ii/description/" },
       { name: "102. Binary Tree Level Order Traversal", link: "https://leetcode.com/problems/binary-tree-level-order-traversal/" },
       { name: "107. Binary Tree Level Order Traversal II", link: "https://leetcode.com/problems/binary-tree-level-order-traversal-ii/" },
       { name: "113. Path Sum II", link: "https://leetcode.com/problems/path-sum-ii/" },
       { name: "137. Single Number II", link: "https://leetcode.com/problems/single-number-ii/" },
       { name: "142. Linked List Cycle II", link: "https://leetcode.com/problems/linked-list-cycle-ii/" },
+      { name: "148. Sort List", link: "https://leetcode.com/problems/sort-list/description/" },
       { name: "151. Reverse Words in a String", link: "https://leetcode.com/problems/reverse-words-in-a-string/" },
       { name: "176. Second Highest Salary", link: "https://leetcode.com/problems/second-highest-salary/" },
       { name: "178. Rank Scores", link: "https://leetcode.com/problems/rank-scores/" },
@@ -310,6 +324,7 @@ const portfolioData = {
       { name: "626. Exchange Seats", link: "https://leetcode.com/problems/exchange-seats/" },
       { name: "678. Valid Parenthesis String", link: "https://leetcode.com/problems/valid-parenthesis-string/" },
       { name: "692. Top K Frequent Words", link: "https://leetcode.com/problems/top-k-frequent-words/" },
+       { name: "792. Number of Matching Subsequences", link: "https://leetcode.com/problems/number-of-matching-subsequences/description/" },
       { name: "848. Shifting Letters", link: "https://leetcode.com/problems/shifting-letters/" },
       { name: "849. Maximize Distance to Closest Person", link: "https://leetcode.com/problems/maximize-distance-to-closest-person/" },
       { name: "852. Peak Index in a Mountain Array", link: "https://leetcode.com/problems/peak-index-in-a-mountain-array/" },
@@ -321,6 +336,8 @@ const portfolioData = {
       { name: "2095. Delete the Middle Node of a Linked List", link: "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/" },
       { name: "2221. Find Triangular Sum of an Array", link: "https://leetcode.com/problems/find-triangular-sum-of-an-array/" },
       { name: "2433. Find The Original Array of Prefix Xor", link: "https://leetcode.com/problems/find-the-original-array-of-prefix-xor/" },
+       { name: "2807. Insert Greatest Common Divisors in Linked List", link: "https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/" },
+        { name: "3217.  Delete Nodes From Linked List Present in Array", link: "https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/" },
       { name: "3475. DNA Pattern Recognition", link: "https://leetcode.com/problems/dna-pattern-recognition/" },
       { name: "3847. Smallest Number With All Positive Bits Set", link: "https://leetcode.com/problems/smallest-number-with-all-positive-bits-set/" },
       { name: "3848. Word Frequencies", link: "https://leetcode.com/problems/word-frequencies/" },
@@ -339,6 +356,7 @@ const portfolioData = {
     ]
   }
 },
+
   projects: [
     {
       title: "Wanderlust – Booking Web App",
@@ -347,6 +365,14 @@ const portfolioData = {
       github: "https://github.com/Mahboobraza01/wanderlust",
       live: "https://wanderlust-2i83.onrender.com/listings",
       emoji: "🏕️"
+    },
+     {
+      title: "InterviewIQ.AI — AI-Powered Mock Interview Platform",
+      desc: "InterviewIQ.AI — AI-powered mock interview platform where users upload their resume, get AI-generated interview questions based on their role and experience, and receive real-time scored feedback on confidence, communication, and correctness — with Razorpay-based credits and a full performance report.",
+      tech: ["Node.js", "Express.js", "React", "MongoDB"],
+      github: "https://github.com/Mahboobraza01/AI-agent-Project",
+      live: "https://ai-agent-project-client.onrender.com/",
+      emoji: "🤖"
     },
     {
       title: "PG Life – PG Accommodation Website",
@@ -370,7 +396,7 @@ const portfolioData = {
       tech: ["Node.js", "Express.js", "EJS", "CSS"],
       github: "https://github.com/Mahboobraza01/myPortfolio",
       live: "https://my-portfolio-tltd.onrender.com/",
-      emoji: "🎨"
+      emoji: "🧑‍💼"
     },
     {
      title: "Tic-Tac-Toe",
@@ -379,28 +405,35 @@ const portfolioData = {
       github: "https://github.com/Mahboobraza01/TIC-TAC-TOE",
       live: "https://mahboobraza01.github.io/TIC-TAC-TOE/",
       emoji: "🎮" 
-    }
+    },
+     {
+      title: "Wordpress Portfolio Website",
+      desc: "Personal Portfolio Website – Built a responsive personal portfolio using WordPress and plugins to showcase my skills, projects, education, and achievements with a clean and user-friendly interface.",
+      tech: ["Wordpress", "Plugins", "Theme", "Elementor"],
+      live: "https://mahboob-portfolio.infinityfreeapp.com/?i=1",
+      emoji: "Ⓦ"
+    },
   ],
 
   experience: [
     {
-      role: "Full Stack Website Design & Development (Virtual)",
+      role: "Full Stack Website Design & Development (Online)",
       company: "Internship Studio (Remote)",
-      duration: "Jan 2026 – Present",
+      duration: "Jan 2026 – March 2026",
       points: [
-        "HTML, CSS, JavaScript, Bootstrap aur React mein structured virtual training complete ki",
-        "Capstone assignment ke roop mein responsive e-commerce website design aur develop kar raha hoon",
-        "Real-world project workflow aur best practices seekhi"
+        "Completed online training in HTML, CSS, JavaScript, Bootstrap",
+        "Developed and Design responsive e-commerce website as Capstone Assignment",
+        "Practice and Learn the workflow of Real-world Project"
       ]
     },
     {
-      role: "Web Development with AI (Virtual)",
+      role: "Web Development with AI (Online)",
       company: "Internshala Training (Remote)",
       duration: "Oct 2024 – Dec 2024",
       points: [
-        "HTML, CSS, JavaScript, PHP, MySQL aur React mein hands-on experience haasil kiya",
-        "City-wise search aur filtering ke saath responsive PG accommodation website banaya",
-        "AI tools ko web development workflow mein integrate karna seekha",
+        "Gained Hand-on experience in HTML, CSS, JavaScript, PHP and REact.",
+        "Developed a responsive PG (paying guest) accommodation platform with city-wise search and dynamic filtering, improving property discoverability for users across multiple cities",
+        "Integrated AI tools into the web development workflow, accelerating debugging, code review, and feature delivery",
         "Certificate: Web Development with AI – Internshala (Sep 2025)"
       ]
     },
@@ -411,7 +444,7 @@ const portfolioData = {
       points: [
         "CGPA: 8.2 — consistent academic performance",
         "Core subjects: Data Structures, Algorithms, DBMS, OS, Web Technologies",
-        "200+ DSA problems solved on LeetCode aur GeeksForGeeks using Java"
+        "300+ DSA problems solved on LeetCode using Java"
       ]
     }
   ],

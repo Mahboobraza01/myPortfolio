@@ -1,0 +1,49 @@
+MAHBOOB RAZA
+Mahipalpur, New Delhi
+
+mahboobraza.muz@gmail.com | 6200548714 | linkedin.com/in/mahboobraza |
+
+github.com/Mahboobraza01 | https://my-portfolio-tltd.onrender.com/
+
+SUMMARY
+Aspiring Software Developer with strong foundation in Data Structures, OOP, and Backend Development
+
+(Node.js, Express, PHP, SQL). Experienced in building scalable REST APIs and full-stack applications. Pas-
+sionate about problem-solving and writing clean, efficient code.
+
+EDUCATION
+Bachelor of Technology in Computer Science and Engineering CGPA: 8.3
+Gurukula Kangri (Deemed to be University), Haridwar, Uttarakhand Nov 2022 – May 2026
+TECHNICAL SKILLS
+Programming & CS Fundamentals: Java, Data Structures & Algorithm, OOPs
+Backend: Node.js, Express.js, REST APIs, PHP
+Frontend: HTML, CSS, JavaScript, Bootstrap, React
+Databases: SQL, MongoDB
+Tools: Git, GitHub
+AI Tools: Claude, chatGPT
+PROJECTS
+Wanderlust - Accommodation Listing and Booking Web App
+• Designed and implemented RESTful APIs and a MongoDB schema to support a full-stack accommodation
+booking platform with user authentication and CRUD-based listings, built using Node.js, Express.js, and EJS.
+• Engineered image upload, review, and Payment-integration features, improving data handling logic and overall
+system usability.
+• Deployed the application on Render with environment-based configuration, making it publicly accessible.
+AI Interview Agent
+• Designed a full-stack SaaS-style AI interview platform where users upload resumes (PDF) and get AI-generated
+interview questions with feedback
+• Developed a credit-based access system integrated with Razorpay for payments
+Real-time Weather Telegram Bot
+• Built a Node.js application integrating the Telegram API and OpenWeatherMap API to solve real-time data
+retrieval and message-handling logic.
+INTERNSHIPS
+Software Developer Intern March 2026 – Present
+Vertokit
+• Developed REST API endpoints using Node.js/Express for user registration, login, and review management
+(CRUD).
+• Collaborated with [frontend team members] to integrate APIs, resolving integration issues.
+Web Development with AI (Virtual) Oct 2024 – Dec 2024
+Internshala Training (Remote)
+• Gained hands-on experience in HTML, CSS, JavaScript, PHP, MySQL, and React.
+ACHIEVEMENTS & CERTIFICATIONS
+• Solved 350+ DSA using Java , 100+ SQL problems on LeetCode/GFG.
+• Node and Express Essentials — IBM (via Coursera), Aug 2026
