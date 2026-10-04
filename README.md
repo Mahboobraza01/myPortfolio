@@ -100,10 +100,11 @@ cd myPortfolio
 # 3. Install dependencies
 npm install
 
-# 4. Create .env from .env.example and add your OpenAI API key
-Copy-Item .env.example .env
+# 4. Copy .env.example to .env and add your OpenAI API key
+# PowerShell: Copy-Item .env.example .env
+# macOS/Linux: cp .env.example .env
 
-# 5. Generate the AI assistant knowledge base
+# 5. Generate the AI assistant knowledge base (requires OpenAI API credits)
 npm run embed
 
 # 6. Start dev server (auto-restart)
